@@ -38,3 +38,4 @@ inputField.addEventListener('keyup', function (e) {
     img.addEventListener('click', showArtistPage);
   }
 });
+//----------------------------------------------------------------------->  NEW SEARCH <-----------------------------------
