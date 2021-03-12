@@ -8,5 +8,5 @@ function getCardsInfo(e) {
   const url = img.src;
   console.log(title);
   console.log(url);
-  showAlbumPage(url, title);
+  fetchAlbum()
 }
