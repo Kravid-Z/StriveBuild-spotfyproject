@@ -1,4 +1,4 @@
-console.log("Js Connected");
+console.log("Js Connected, fecthingAlbumOnclick => Card");
 
 const fetchAlbum =()=>{
     fetch("https://striveschool-api.herokuapp.com/api/deezer/album/75621062")

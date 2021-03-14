@@ -253,8 +253,8 @@
 /* rowsssss & caaaards */
 
 .card-custom {
-  height: 25vmin;
-  width: 18vmin;
+  height: 40vmin;
+  width: 30vmin;
   background-color: rgb(24, 24, 24);
   transition: var(--transition-time);
   cursor: pointer;
@@ -264,21 +264,22 @@
 }
 
 .card-image-wrapper img {
+  
   width: 100%;
 }
 
 .card-image-wrapper {
-  height: 18vmin;
+  height: 30vmin;
   width: 100%;
 }
 .card-body-custom {
-  height: 7vmin;
+  height: 10vmin;
 }
 .card-title-custom {
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 .card-text-custom {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 767px) {
@@ -347,7 +348,7 @@
 
 /* in order to maninuplate via js */
 .mobile-bottom-menu-wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   bottom: 0;
